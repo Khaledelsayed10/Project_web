@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="images/logo.png" alt="our logo" class="logo" />
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Blog.html">Blog</a>
+          <a href="E-Government gallery/gallery.html">Gallery</a>
+          <a href="contact.html">Contact US</a>
+          <a href="signin.html">Sign in</a>
+          <a href="signupSpace.html">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- this is article -->
+    <div id="contents">
+      <div id="contact" class="clearfix">
+        <div class="main">
+          <h1>Contact Us</h1>
+          <form action="index.html" method="post">
+            <ul>
+              <li>
+                <input
+                  type="text"
+                  value="   Full Name"
+                  onFocus="javascript:if(this.value==this.defaultValue){this.value='';}"
+                />
+                <label>Enter your full name here.</label>
+              </li>
+              <li>
+                <input
+                  type="text"
+                  value="   Email Address"
+                  onFocus="javascript:if(this.value==this.defaultValue){this.value='';}"
+                />
+                <label>Enter your email address here.</label>
+              </li>
+              <li>
+                <input
+                  type="text"
+                  value="   Subject"
+                  onFocus="javascript:if(this.value==this.defaultValue){this.value='';}"
+                />
+                <label>Enter the Subject message here.</label>
+              </li>
+              <li>
+                <textarea
+                  onFocus="javascript:if(this.value==this.defaultValue){this.value='';}"
+                >
+  Message</textarea
+                >
+                <label class="msg">Enter your Message here.</label>
+              </li>
+            </ul>
+            <div class="checkbox">
+              <input type="checkbox" />
+              <label>I agree to the Terms and Conditions</label>
+              <input type="checkbox" />
+              <label>Subscribe to newsletter</label>
+            </div>
+
+            <input type="submit" value="Send Now" class="btn3" />
+          </form>
+        </div>
+        <div id="sidebar">
+          <ul>
+            <li>
+              <a href="blog.html"
+                ><img
+                  src="images/earth-small.jpg"
+                  alt="Img"
+                  height="154"
+                  width="213"
+              /></a>
+            </li>
+            <li>
+              <a href="blog.html"
+                ><img
+                  src="images/spaceshuttle-closeup.jpg"
+                  alt="Img"
+                  height="154"
+                  width="213"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <ul id="featured" class="wrapper clearfix">
+        <li>
+          <img src="images/astronaut.jpg" alt="Img" height="204" width="220" />
+        </li>
+        <li>
+          <img src="images/earth.jpg" alt="Img" height="204" width="220" />
+        </li>
+        <li>
+          <img
+            src="images/spacecraft-small.jpg"
+            alt="Img"
+            height="204"
+            width="220"
+          />
+        </li>
+        <li>
+          <img
+            src="images/space-shuttle.jpg"
+            alt="Img"
+            height="204"
+            width="220"
+          />
+        </li>
+      </ul>
+    </div>
+    <!-- this is footer  -->
+    <footer>
+      <div class="footer-continer">
+        <div class="contacts row">
+          <h4>social</h4>
+          <a href="#" class="footer-link">Google+</a>
+          <a href="#" class="footer-link">Facebook</a>
+          <a href="#" class="footer-link">Youtube</a>
+        </div>
+        <div class="headings row">
+          <h4>Heading placeholder</h4>
+          <a href="#" class="footer-link">Link Title 1</a>
+          <a href="#" class="footer-link">Link Title 2</a>
+          <a href="#" class="footer-link">Link Title 3</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="forgotPw.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="../images/logo.png" alt="our logo" class="logo" />
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Gallery</a>
+          <a href="#">Contact US</a>
+          <a href="signin.html">Sign in</a>
+          <a href="#">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+    <!-- this is article -->
+    <img class="main-bg" src="../images/mainbg.jpeg" alt="space" />
+    <div class="welcome-container">
+      <h1 class="welcome-h1">Welcome to Space!🪐</h1>
+      <p class="welcome-p">You can change your password from down below.</p>
+    </div>
+    <form action="../msgSentToEmail/sent.html" class="form">
+      <h1 class="forgotPw-h1">Forgot Password</h1>
+
+      <input
+        type="Email"
+        class="input"
+        id="email"
+        placeholder="Enter Your Email To Recieve A Message"
+      />
+
+      <button class="btn-submit" id="btn-submit">Submit</button>
+      <div class="p-invalid-container"></div>
+    </form>
+
+    <!-- this is footer  -->
+    <footer>
+      <div class="footer-continer">
+        <div class="contacts row">
+          <h4>social</h4>
+          <a href="#" class="footer-link">Google+</a>
+          <a href="#" class="footer-link">Facebook</a>
+          <a href="#" class="footer-link">Youtube</a>
+        </div>
+        <div class="headings row">
+          <h4>Heading placeholder</h4>
+          <a href="#" class="footer-link">Link Title 1</a>
+          <a href="#" class="footer-link">Link Title 2</a>
+          <a href="#" class="footer-link">Link Title 3</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="forgotPw.js"></script>
+  </body>
+</html>

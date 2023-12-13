@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Gallery</title>
+    <style>
+      img,
+      button {
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        border: 0px solid;
+        border-radius: 6px;
+      }
+      img:hover {
+        filter: opacity(0.8);
+      }
+
+      button:hover {
+        filter: opacity(0.7);
+      }
+
+      /* this is the header  */
+
+      header {
+        background-image: url("../images/bg-header.png");
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 0;
+        width: 960px;
+        margin: 0 auto;
+      }
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+      }
+
+      a:hover,
+      a:active {
+        color: #44b2f1;
+      }
+
+      nav {
+        display: flex;
+        gap: 15px;
+      }
+      /* card section style */
+
+      .cards {
+        display: flex;
+        gap: 30px;
+        width: 960px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+      }
+
+      figure {
+        width: 220px;
+        background-color: #fff;
+        box-shadow: 0 30px 30px rgba(0, 0, 0, 0.07);
+      }
+
+      .card-link:link,
+      .card-link:visited {
+        display: flex;
+        text-decoration: none;
+        font-size: 20px;
+        margin-bottom: 18px;
+        align-items: center;
+        justify-content: center;
+        color: #07304d;
+      }
+
+      .card-link:hover,
+      .card-link:active {
+        color: #44b2f1;
+      }
+
+      .fig-text {
+        padding: 24px;
+        font-size: 12px;
+        line-height: 1.7;
+        text-align: center;
+      }
+
+      /* this is footer style */
+
+      footer {
+        background-color: #072438;
+      }
+      .footer-continer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: start;
+        padding: 24px;
+        width: 960px;
+        margin: 0 auto;
+        background-image: url("../images/bg-footer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      footer h4 {
+        color: #fff;
+      }
+
+      .footer-link:link,
+      .footer-link:visited {
+        color: #7890a1;
+        text-decoration: none;
+        font-size: 12px;
+        display: flex;
+        padding: 3px 0 8px;
+        margin-bottom: 5px;
+      }
+
+      .footer-link:hover,
+      .footer-link:active {
+        color: #fff;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0; height: 100vh; background-color: #083855">
+    <header>
+      <div class="header">
+        <img src="../images/logo.png" alt="our logo" class="logo" />
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="../About.html">About</a>
+          <a href="../Blog.html">Blog</a>
+          <a href=" gallery.html">Gallery</a>
+          <a href="../contact.html">Contact US</a>
+          <a href="../signin.html">Sign in</a>
+          <a href="../signupSpace.html">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+    <!-- this the article  -->
+    <div>
+      <h1 style="color: aliceblue; font-size: 3rem; margin-left: 4vw">
+        Gallery
+      </h1>
+      <img
+        src="./5.jpeg"
+        style="width: 1000px; height: 600px; margin-left: 0.5rem"
+      />
+
+      <img src="./60.jpeg" style="position: absolute; top: 9vh; right: 5vw" />
+
+      <div
+        style="
+          color: #addcfe;
+          position: absolute;
+          bottom: 4vh;
+          margin-left: 70rem;
+        "
+      >
+        <img
+          style="
+            position: relative;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+          src="./90.jpeg"
+        />
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 1rem;
+          "
+        >
+          <h2 style="font-size: x-large">This is just a placeholder</h2>
+          <button
+            style="
+              color: #fefefe;
+              background-color: #258fcd;
+              font-weight: bold;
+              padding: 1rem 1rem;
+              font-size: 1.2rem;
+            "
+          >
+            CLICK HERE!
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- card section -->
+    <section class="cards">
+      <figure>
+        <img src="../images/astronaut.jpg" alt="astronaut" />
+        <div class="fig-text">
+          <a href="#" class="card-link">Category 1</a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
+            mi tortor. Phasellus commodo semper vehicula.
+          </p>
+        </div>
+      </figure>
+      <figure>
+        <img src="../images/earth.jpg" alt="earth" />
+        <div class="fig-text">
+          <a href="#" class="card-link">Category 2</a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
+            mi tortor. Phasellus commodo semper vehicula.
+          </p>
+        </div>
+      </figure>
+      <figure>
+        <img src="../images/spacecraft-small.jpg" alt="spacecraft" />
+        <div class="fig-text">
+          <a href="#" class="card-link">Category 3</a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
+            mi tortor. Phasellus commodo semper vehicula.
+          </p>
+        </div>
+      </figure>
+      <figure>
+        <img src="../images/space-shuttle.jpg" alt="space-shuttle" />
+        <div class="fig-text">
+          <a href="#" class="card-link">Category 4</a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
+            mi tortor. Phasellus commodo semper vehicula.
+          </p>
+        </div>
+      </figure>
+    </section>
+
+    <!-- this is the footer  -->
+    <footer>
+      <div class="footer-continer">
+        <div class="contacts row">
+          <h4>social</h4>
+          <a href="#" class="footer-link">Google+</a>
+          <a href="#" class="footer-link">Facebook</a>
+          <a href="#" class="footer-link">Youtube</a>
+        </div>
+        <div class="headings row">
+          <h4>Heading placeholder</h4>
+          <a href="#" class="footer-link">Link Title 1</a>
+          <a href="#" class="footer-link">Link Title 2</a>
+          <a href="#" class="footer-link">Link Title 3</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

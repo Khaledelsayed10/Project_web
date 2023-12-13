@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="signin.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="images/logo.png" alt="our logo" class="logo" />
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Blog.html">Blog</a>
+          <a href="E-Government gallery/gallery.html">Gallery</a>
+          <a href="contact.html">Contact US</a>
+          <a href="signin.html">Sign in</a>
+          <a href="signupSpace.html">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+
+    <img class="main-bg" src="images/mainbg.jpeg" alt="space" />
+    <div class="welcome-container">
+      <h1 class="welcome-h1">Welcome to Space!🪐</h1>
+      <p class="welcome-p">You can log into our website from down below.</p>
+    </div>
+    <form action="index.html" class="form">
+      <h1 class="signin-h1">Sign In</h1>
+
+      <input type="Email" class="input" id="email" placeholder="Email" />
+      <input
+        type="password"
+        class="input"
+        id="pw"
+        placeholder="Password"
+        maxlength="20"
+      />
+      <a href="forgotPw/forgotPw.html" class="forgot-pw">Forgot Password?</a>
+      <button class="btn-signin" id="btn-signin">Sign In</button>
+      <div class="p-invalid-container"></div>
+    </form>
+
+    <!-- footer  -->
+
+    <footer>
+      <div class="footer-continer">
+        <div class="contacts row">
+          <h4>social</h4>
+          <a href="#" class="footer-link">Google+</a>
+          <a href="#" class="footer-link">Facebook</a>
+          <a href="#" class="footer-link">Youtube</a>
+        </div>
+        <div class="headings row">
+          <h4>Heading placeholder</h4>
+          <a href="#" class="footer-link">Link Title 1</a>
+          <a href="#" class="footer-link">Link Title 2</a>
+          <a href="#" class="footer-link">Link Title 3</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="signin.js"></script>
+  </body>
+</html>

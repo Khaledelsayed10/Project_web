@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgian", serif;
+}
+
+header {
+  background-image: url("images/bg-header.png");
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  width: 960px;
+  margin: 0 auto;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  color: #44b2f1;
+}
+
+/* header latouts */
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+/* article visual styles */
+
+img {
+  width: 213px;
+}
+
+.article-container {
+  background-image: url("images/bg-body.jpg");
+  height: 100vh;
+  margin-bottom: 40px;
+}
+
+.article-layout {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  color: #fff;
+  width: 960px;
+
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/* element visual style */
+h1 {
+  font-style: italic;
+  font-size: 34px;
+  margin-bottom: 18px;
+}
+
+strong {
+  display: block;
+  font-weight: bold;
+}
+p {
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-bottom: 4px;
+}
+ul {
+  list-style: none;
+}
+
+/* cards style */
+
+.cards {
+  display: flex;
+  gap: 30px;
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+figure {
+  width: 220px;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.07);
+}
+
+.card-link:link,
+.card-link:visited {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 18px;
+  align-items: center;
+  justify-content: center;
+  color: #07304d;
+}
+
+.card-link:hover,
+.card-link:active {
+  color: #44b2f1;
+}
+
+.fig-text {
+  padding: 24px;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* footer style */
+
+footer {
+  background-color: #072438;
+}
+.footer-continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  padding: 24px;
+  width: 960px;
+  margin: 0 auto;
+  background-image: url("images/bg-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer h4 {
+  color: #fff;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: #7890a1;
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  padding: 3px 0 8px;
+  margin-bottom: 5px;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

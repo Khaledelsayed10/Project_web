@@ -1,0 +1,265 @@
+header {
+  background-image: url("images/bg-header.png");
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  width: 960px;
+  margin: 0 auto;
+}
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #44b2f1;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+/* article style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 960px;
+}
+#sidebar {
+  float: right;
+  padding: 30px 290px 0 0;
+}
+a img {
+  border: 3px white solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+li {
+  list-style-type: none;
+}
+
+#sidebar ul li img {
+  border: 4px solid #fff;
+  border-radius: 3px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+  position: right;
+}
+
+#contents {
+  background: url("images/bg-content.png") repeat-x center top;
+  background-color: #0e3f5c;
+  position: relative;
+}
+
+.main {
+  padding: 25px 0 0 270px;
+}
+h1 {
+  color: white;
+}
+
+#contents h1,
+#featured h3 {
+  color: #fbfdfd;
+  font: italic 34px Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  margin: 0 0 18px;
+}
+h4 {
+  display: block;
+  color: #e8eff4;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#contents p {
+  color: #e8eff4;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 30px;
+  text-align: justify;
+}
+
+.time {
+  color: #2986bb;
+  font-size: 12px;
+  float: right;
+  margin-top: 6px;
+}
+
+li a.more {
+  float: right;
+  color: #34b0fb;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.pagination {
+  display: inline-block;
+  list-style: none;
+}
+.pagination li a {
+  color: #36b4fd;
+  padding: 3px;
+  text-decoration: none;
+}
+.pagination li {
+  float: left;
+  font: 14px Arial, Helvetica, sans-serif;
+  margin: 0 2px;
+}
+
+#footer .body {
+  background: #072438 url(../images/bg-footer.jpg) no-repeat center top;
+  min-height: 136px;
+  padding: 30px 0;
+}
+
+#footer h4 {
+  color: #fff;
+  font: normal 14px Georgia, "Times New Roman", Times, serif;
+  margin: 0 0 12px;
+}
+
+#footer p {
+  color: #7890a1;
+  font-size: 12px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 6px;
+}
+#featured {
+  display: block;
+  list-style: none;
+  width: 960px;
+  margin: 16;
+}
+#featured li {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  text-align: center;
+}
+#featured li h3 {
+  color: #07304d;
+  font-size: 18px;
+  margin: 18px 0;
+}
+#featured li h3 a {
+  color: #07304d;
+  text-decoration: none;
+}
+#featured li h3 a:hover {
+  color: #51a9e9;
+}
+#featured li p {
+  color: #07304d;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* card section */
+
+.cards {
+  box-sizing: border-box;
+  display: flex;
+  gap: 30px;
+  width: 960px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+figure {
+  width: 220px;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.07);
+}
+
+.card-link:link,
+.card-link:visited {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 18px;
+  align-items: center;
+  justify-content: center;
+  color: #07304d;
+}
+
+.card-link:hover,
+.card-link:active {
+  color: #44b2f1;
+}
+
+.fig-text {
+  padding: 24px;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* footer style */
+
+footer {
+  background-color: #072438;
+}
+.footer-continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+  padding: 24px;
+  width: 960px;
+  margin: 0 auto;
+  background-image: url("images/bg-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer h4 {
+  color: #fff;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  color: #7890a1;
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  padding: 3px 0 8px;
+  margin-bottom: 5px;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
